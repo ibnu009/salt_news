@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    android:layout_marginHorizontal="12dp"
+    android:layout_marginVertical="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgNews"
+            android:layout_width="120dp"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:scaleType="fitXY"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:background="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/txvNewsName"
+            android:layout_width="0dp"
+            android:layout_marginTop="@dimen/space"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingEnd="5dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgNews"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Judul Berita" />
+
+        <TextView
+            android:id="@+id/txvNewsDescription"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginTop="@dimen/space"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:paddingEnd="@dimen/space_half"
+            android:textColor="@color/grey_700"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgNews"
+            app:layout_constraintTop_toBottomOf="@+id/txvNewsName"
+            tools:text="Deksripsi" />
+
+        <TextView
+            android:id="@+id/txvPublishedDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginBottom="@dimen/space"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:paddingEnd="@dimen/space_half"
+            android:singleLine="true"
+            android:textColor="@color/grey_700"
+            android:textSize="14sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imgNews"
+            tools:text="Waktu Rilis" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

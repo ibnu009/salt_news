@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#CC2179</color>
+    <color name="purple_700">#A81661</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black_dim">#74000000</color>
+    <color name="bg_order">#3b3b3b</color>
+    <color name="bg_order_ligher">#414141</color>
+
+    <color name="secondary_color">#F58634</color>
+    <color name="bg_add_product_color">#FBDFCB</color>
+
+    <color name="titleText">#3D3D3D</color>
+    <color name="input_color">#2061B15A</color>
+    <color name="titleDescription">#7A7A7A</color>
+    <color name="green_button">#61B15A</color>
+    <color name="green_button_light">#85C180</color>
+
+    <color name="green_lighter">#D6EAD4</color>
+    <color name="light_red_bg">#DD8391</color>
+    <color name="red_icon">#EC255A</color>
+
+    <color name="darker_green_button">#418A3B</color>
+    <color name="green_background">#61B15A</color>
+
+    <color name="grey_50">#FAFAFA</color>
+    <color name="grey_100">#F5F5F5</color>
+    <color name="grey_200">#EEEEEE</color>
+    <color name="grey_300">#E0E0E0</color>
+    <color name="grey_400">#BDBDBD</color>
+    <color name="grey_500">#9E9E9E</color>
+    <color name="grey_600">#757575</color>
+    <color name="grey_700">#616161</color>
+    <color name="grey_800">#424242</color>
+    <color name="grey_900">#212121</color>
+</resources>
